@@ -1,0 +1,106 @@
+.circle{
+    border-radius: 50% !important;
+}
+.center{
+    justify-content: center !important;
+    align-items: center !important;
+}
+.w-50{
+    width: 50px !important;
+}
+.w-100{
+    width: 100px !important;
+}
+.w-150{
+    width: 150px !important;
+}
+.w-200{
+    width: 200px !important;
+}
+.w-100_{
+    width: 100% !important;
+}
+.w-49_{
+    width: 49% !important;
+}
+.w-50_{
+    width: 50% !important;
+}
+.w-75_{
+    width: 75% !important;
+}
+.w-75_{
+    width: 75% !important;
+}
+
+.main-header{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-evenly ;
+    align-items: center !important;
+    height: fit-content !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.nav{
+    list-style: none !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.link{
+    text-decoration: none;
+}
+.list-none{
+    list-style: none;
+}
+.nav-sm{
+
+}
+@media (min-width:576px) {
+    .nav-sm{
+        list-style: none !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+}
+.zindex-1{
+    z-index: 1 !important;
+}
+.zindex_-1{
+    z-index: -1 !important;
+}
+.zindex-2{
+    z-index: 2 !important;
+}
+.zindex-3{
+    z-index: 3 !important;
+}
+.zindex-6{
+    z-index: 6 !important;
+}
+.zindex-5{
+    z-index: 5 !important;
+}
+/* Start A|Y|M|A|N Name */
+/* Use This Code  */
+/*
+    A<span>|<span>Y<span>|<span>M</span>|</span>A</span>|</span>N
+ */
+.ayman{
+    color: #0075ff;
+    font-size: 18px;
+}
+.ayman span{
+    font-size: 21px;
+}
+.ayman span span{
+    font-size: 24px;
+}
+.ayman span span span{
+    font-size: 27px;
+}
+.ayman span span span span{
+    font-size: 30px;
+}
+/* End A|Y|M|A|N Name */

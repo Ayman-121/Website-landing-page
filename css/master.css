@@ -1,0 +1,20 @@
+.landing::before{
+  content: "";
+  width: 75%;
+  height: 75%;
+  background-color: #ff000091;
+  position: absolute;
+  border-radius: 50px;
+  z-index: -1;
+  top: -20%;
+  left: -20%;
+  animation: infinite rotate 12s cubic-bezier(0, 0.57, 0.71, -0.5);
+}
+@keyframes rotate {
+  form{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
